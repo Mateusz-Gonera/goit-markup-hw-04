@@ -86,19 +86,19 @@ img {
 
 /* HEADER */
 
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-.navigation {
+.navigation .container {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--menu-border-color);
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.navigation {
+  padding: 0;
 }
 
 
@@ -137,8 +137,12 @@ img {
   margin-right: 30px;
 }
 
+
+
+
 .navigation-mail {
   margin-left: 10px;
+  margin-right: 50px;
 }
 
 .navigation-item-link {
