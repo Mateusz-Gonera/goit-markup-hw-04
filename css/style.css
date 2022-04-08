@@ -118,14 +118,22 @@ img {
 .navigation-list {
   display: flex;
   align-items: center;
-  margin-right: 371px;
+  margin-right: 345px;
 }
 
 .navigation-item:not(:last-child) {
   margin-right: 46px;
 }
 
+
+
+.mail-icon {
+  margin-right: 10px;
+  }
+
 .navigation-mail {
+  display: flex;
+  align-items: center;
   margin-right: 50px;
 }
 
@@ -158,6 +166,7 @@ img {
 .navigation-phone:hover,
 .navigation-phone:focus {
   color: var(--decorative-color);
+  fill: var(--decorative-color);
 }
 
 /* header */
