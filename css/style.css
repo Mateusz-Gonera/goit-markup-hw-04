@@ -118,16 +118,27 @@ img {
 .navigation-list {
   display: flex;
   align-items: center;
-  margin-right: 371px;
+  justify-content: center;
+  margin-right: 345px;
 }
 
 .navigation-item:not(:last-child) {
   margin-right: 46px;
 }
 
+.navigation-icon {
+  fill: var(--second-color);
+}
+
+.navigation-mail-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 30px;
+}
+
 .navigation-mail {
-  margin-left: auto;
-  margin-right: 50px;
+  margin-left: 10px;
 }
 
 .navigation-item-link {
@@ -297,6 +308,17 @@ img {
   color: var(--second-color);
   margin-top: 10px;
 }
+
+/* Nasi klienci */
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 
 /* footer */
 .foot .container {
