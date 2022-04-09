@@ -11,6 +11,7 @@
   --icons-background-color: #f5f4fa;
   --menu-border-color: #ECECEC;
   --portfolio-list-border-color: #EEE;
+  --social-icon-color-first: #AFB1B8;
 }
 
 body {
@@ -310,15 +311,30 @@ img {
   letter-spacing: 0.03em;
   color: var(--second-color);
   margin-top: 10px;
+  margin-bottom: 16px;
 }
 
 .team-social-list {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-list-link {
+  display: flex;
+  padding: 12px;
+  border-radius: 50%;
+  fill: var(--social-icon-color-first);
+}
 
+.social-list-link:hover,
+.social-list-link:focus {
+  fill: #ffffff;
+  background-color: var(--decorative-color);
 }
 
 
