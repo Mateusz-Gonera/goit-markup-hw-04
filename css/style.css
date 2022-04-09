@@ -126,17 +126,6 @@ img {
 }
 
 
-
-.mail-icon {
-  margin-right: 10px;
-  }
-
-.navigation-mail {
-  display: flex;
-  align-items: center;
-  margin-right: 50px;
-}
-
 .navigation-item-link {
   font-weight: 500;
   font-size: 14px;
@@ -151,6 +140,15 @@ img {
   color: var(--decorative-color);
 }
 
+.mail-icon {
+  margin-right: 10px;
+  fill: var(--second-color);
+}
+
+.navigation-mail {
+  margin-right: 50px;
+}
+
 .navigation-mail,
 .navigation-phone {
   font-weight: 500;
@@ -159,6 +157,8 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--second-color);
+  display: flex;
+  align-items: center;
 }
 
 .navigation-mail:hover,
