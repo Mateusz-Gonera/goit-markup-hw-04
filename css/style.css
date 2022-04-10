@@ -11,7 +11,7 @@
   --icons-background-color: #f5f4fa;
   --menu-border-color: #ECECEC;
   --portfolio-list-border-color: #EEE;
-  --social-icon-color-first: #AFB1B8;
+  --icon-color-first: #AFB1B8;
 }
 
 body {
@@ -314,6 +314,8 @@ img {
   margin-bottom: 16px;
 }
 
+/* social icon */
+
 .team-social-list {
   display: flex;
   justify-content: center;
@@ -328,14 +330,42 @@ img {
   display: flex;
   padding: 12px;
   border-radius: 50%;
-  fill: var(--social-icon-color-first);
+  fill: var(--icon-color-first);
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
-  fill: #ffffff;
+  fill: var(--third-color);
   background-color: var(--decorative-color);
 }
+
+
+/* Nasi klienci */
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-list-link {
+  display: flex;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--icon-color-first);
+  fill: var(--icon-color-first);
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+  fill: var(--decorative-color);
+  border-color: var(--decorative-color);
+}
+
 
 
 /* footer */
@@ -397,6 +427,37 @@ img {
 .logo-footer-element {
   padding-top: 60px;
 }
+
+/* social foot */
+.head-foot {
+  color: var(--third-color);
+  margin-bottom: 20px;
+}
+
+.foot-social-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.foot-social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.foot-social-list-link {
+  display: flex;
+  padding: 12px;
+  border-radius: 50%;
+  fill: var(--third-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.foot-social-list-link:hover,
+.foot-social-list-link:focus {
+  fill: var(--third-color);
+  background-color: var(--decorative-color);
+}
+
 
 /* Portfolio */
 
@@ -479,6 +540,13 @@ img {
 
 .images-list-item-figure {
   margin: 0;
+}
+
+.images-list-item-figure:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+  0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .images-caption-title {
